@@ -1,5 +1,5 @@
 const {createElement:h,useEffect,useState,useRef}=React;
-const modes=[['line','Fine line','Contorni sottili e continui'],['shade','Mappa tonale','Guide per luci e ombre'],['black','Blackwork','Campiture nere e silhouette']];
+const modes=[['line','Fine line','Contorni sottili e continui'],['shade','Mappa tonale','Guide tratteggiate fitte'],['black','Blackwork','Profili delle masse scure']];
 function sample(){
  const c=document.createElement('canvas');c.width=720;c.height=780;
  const g=c.getContext('2d');g.fillStyle='white';g.fillRect(0,0,720,780);
